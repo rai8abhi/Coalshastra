@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class AppiumController {
 
-    public static AppiumDriver <MobileElement> driver;
+    public static AppiumDriver driver;
 
     @Before
     //In this method we are setting Appium Capabilities for the devices on which we are going to run our test cases and also app path.
