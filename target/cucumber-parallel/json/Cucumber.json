@@ -3,11 +3,113 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-05T11:55:31.023Z",
+        "start_timestamp": "2020-06-05T11:58:03.138Z",
         "before": [
           {
             "result": {
-              "duration": 21026000000,
+              "duration": 18070000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.AppiumController.openApp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify if user is able to login",
+        "description": "",
+        "id": "feature-to-test-login-flow-functionality;verify-if-user-is-able-to-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.AppiumController.AfterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2738000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.MyStepdefs.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3599000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the rai8abhishek@gmail.com and P@ssword001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rai8abhishek@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "P@ssword001",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.MyStepdefs.userEnterTheEmailIdAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on submit button",
+            "match": {
+              "location": "StepDefinitions.MyStepdefs.userClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6451000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "StepDefinitions.MyStepdefs.userNavigateToLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login flow functionality",
+    "description": "",
+    "id": "feature-to-test-login-flow-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/coalShastra/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-05T11:58:35.454Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16791000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +124,7 @@
         "after": [
           {
             "result": {
-              "duration": 500000000,
+              "duration": 401000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2747000000,
+              "duration": 2848000000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 1899000000,
+              "duration": 1259000000,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 9552000000,
+              "duration": 9891000000,
               "status": "passed"
             },
             "line": 6,
@@ -71,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 591000000,
+              "duration": 599000000,
               "status": "passed"
             },
             "line": 7,
@@ -83,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 151000000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 8,
